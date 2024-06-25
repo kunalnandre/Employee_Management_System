@@ -6,9 +6,6 @@ namespace Employee_Management_System.Entity
     public class EmployeeAdditionalDetailsEntity : BaseEntity
     {
 
-       
-       
-
         [JsonProperty(PropertyName = "alternateEmail", NullValueHandling = NullValueHandling.Ignore)]
         public string AlternateEmail { get; set; }
 
